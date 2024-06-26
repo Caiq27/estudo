@@ -1,0 +1,97 @@
+.container-lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lista {
+    width: 400px;
+    height: auto;
+}
+
+.lista-titulo-caixa {
+    padding: 12px;
+    margin-bottom: 2px;
+    
+    color: whitesmoke;
+    background-color:#272727;
+    
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.lista-titulo-caixa h1 {
+    padding-left: 10px;
+    
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.lista-caixa {  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: white;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lista-caixa li {
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.lista-caixa a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #373737;
+
+    margin-top: 8px;
+}
+
+.lista-caixa img {
+    margin-left:-20px;
+    margin-right: 10px;
+}
+
+.download-caixa {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lista-download {
+    padding: 20px;
+}
+
+.lista-download a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #373737;
+
+}
+
+.lista-download li {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.lista-download hr {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    width: 88%;
+    margin-left: 5%;
+}
+
+.lista-anuncio {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

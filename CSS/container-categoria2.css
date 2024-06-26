@@ -1,0 +1,68 @@
+/* GRID - ESQUERDA E DIREITA */
+
+.categoria2-titulo {
+    margin-bottom: 30px;
+}
+
+.categoria2-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 50px;
+}
+
+/* PERSONALIZAÇÃO - CATEGORIA - CONTAINER */
+.caixa-categoria2 {
+    box-sizing: border-box;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    background-color: white;
+
+    padding: 5px;
+    padding-left: 15px;
+}
+
+/* AJUSTE */
+.categoria2-titulo h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+
+    margin-bottom: 16px;
+}
+
+.noticia-1 p {
+    width: 300px;
+}
+
+.font-categoria2 h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: orangered;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.font-categoria2 h1 {
+    font-weight: 600;
+    font-size:large;
+    color: #272727;
+    
+    margin-bottom: 10px;
+}
+
+.font-categoria2 h3 {
+    font-weight: 400;
+    color: orangered;
+
+    margin-bottom: 10px;
+}
+
+.font-categoria2 p {
+    font-weight: 500;
+    font-size:medium;
+    color: #989898;
+
+    margin-bottom: 10px;
+}

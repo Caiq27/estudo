@@ -1,0 +1,38 @@
+.bg-container-1 {
+    background-image: url(/ESTUDO\ DE\ CASO\ -\ TECHTUDO/IMG/IMG1.jpg);
+    background-position: center;
+    width: 550px;
+    height: 460px;
+}
+
+.bg-container-2 {
+    background-image: url(/ESTUDO\ DE\ CASO\ -\ TECHTUDO/IMG/IMG2.jpg);
+    background-position: center;
+    width: 400px;
+    /* height: 200px; */
+}
+
+.bg-container-3 {
+    background-image: url(/ESTUDO\ DE\ CASO\ -\ TECHTUDO/IMG/IMG3.jpg);
+    background-position: center;
+    width: 400px;
+    /* height: 200px; */
+}
+
+.img1-categoria {
+    width: 90%;
+    max-height: 320px;
+    margin: 15px;
+}
+
+.img2-categoria {
+    max-width: 130px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.img2-categoria2 {
+    width: 108%;
+    margin-top: -5px;
+    margin-left: -14px;
+}

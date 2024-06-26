@@ -1,0 +1,18 @@
+/* GRID - PROPAGANDA */
+.container-propaganda {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-propaganda-flex {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.propaganda-note-sec-esq img {
+    width: 150px;
+    height: 100px;
+    margin-right: 5px;
+}

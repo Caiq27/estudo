@@ -1,0 +1,69 @@
+/* GRID - NOTICIA - CONTAINER */
+.container-noticia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-noticia-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.container-noticia-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* PERSONALIZAÇÃO - NOTICIA - CONTAINER */
+/* CAIXA */
+.container-noticia-1, .container-noticia-2, .container-noticia-3 {
+    padding: 15px;
+    height: 220px;
+    
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-color: orange;
+    margin-bottom: 10px;
+}
+
+/* FONT */
+.container-noticia p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    
+    padding: 5px;
+    padding-left: 15px;
+
+    width: 30%;
+    border: 2px ;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: orange;
+
+    background-color: rgb(55, 55, 55, 0.8);
+}
+
+.container-noticia h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding: 2px;
+    padding-left: 8px;
+}
+
+.container-noticia h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 2px;
+    padding-left: 8px;
+    margin-top: 5px;
+}
