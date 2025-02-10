@@ -1,19 +1,19 @@
 .bg-container-1 {
-    background-image: url(/ESTUDO\ DE\ CASO\ -\ TECHTUDO/IMG/IMG1.jpg);
+    background-image: url(/../IMG/IMG1.jpg);
     background-position: center;
     width: 550px;
     height: 460px;
 }
 
 .bg-container-2 {
-    background-image: url(/ESTUDO\ DE\ CASO\ -\ TECHTUDO/IMG/IMG2.jpg);
+    background-image: url(/../IMG/IMG2.jpg);
     background-position: center;
     width: 400px;
     /* height: 200px; */
 }
 
 .bg-container-3 {
-    background-image: url(/ESTUDO\ DE\ CASO\ -\ TECHTUDO/IMG/IMG3.jpg);
+    background-image: url(/../IMG/IMG3.jpg);
     background-position: center;
     width: 400px;
     /* height: 200px; */
